@@ -6,7 +6,6 @@ public enum Size{
     private final int minValue;
     private final int maxValue;
     private final char code;
-
     private Size(int minValue, int maxValue, String description, char code){
         this.description=description;
         this.minValue=minValue;
